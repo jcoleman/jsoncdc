@@ -6,8 +6,7 @@ JSONCDC
 [![Linux Status](https://travis-ci.org/posix4e/jsoncdc.svg?branch=master)](https://travis-ci.org/posix4e/jsoncdc)
 [![Chat on Freenode](https://img.shields.io/badge/freenode-%23jsoncdc-brightgreen.svg)](irc://chat.freenode.net/jsoncdc)
 
-JSONCDC provides change data capture for Postgres, translating the Postgres
-write ahead log to JSON.
+JSONCDC provides change data capture for Postgres by hooking into Postgres's logical replication and translating the logicla changes into JSON.
 
 It is written in Rust and, being short, is a good skeleton project for other
 would be plugin authors who'd like to use Rust to write Postgres extensions.
